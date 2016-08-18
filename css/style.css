@@ -1,5 +1,5 @@
 /* ================================================== */
-/* created by designesia
+/*
 
 * body
 * header
@@ -695,7 +695,7 @@ overflow:visible;
 footer {
 	background: #111;
 	color: #ccc;
-	padding: 80px 0 0 0;
+	/*padding: 80px 0 0 0;*/
 	}
 	
 	footer h3, .de_light footer h3 {
