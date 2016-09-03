@@ -3577,11 +3577,11 @@ padding-left:20px;
 .widget {
 margin-bottom: 60px;
 padding-bottom:60px;
-border-bottom:solid 1px #333;
+/*border-bottom:solid 1px #333;*/
 }
 
 .de_light .widget{
-border-bottom:solid 1px #ddd;
+/*border-bottom:solid 1px #ddd;*/
 }
 
 .widget h4 {
