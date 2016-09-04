@@ -5064,3 +5064,9 @@ display:table;
 	#send_message {
 		margin-top: -40px;
 	}
+
+	@media screen and (max-width: 322px) {
+    #contact_logo {
+		width: 248px;
+	}
+}
