@@ -3575,8 +3575,8 @@ padding-left:20px;
 }
  
 .widget {
-margin-bottom: 60px;
-padding-bottom:60px;
+margin-bottom: 10px;
+/*padding-bottom:60px;*/
 /*border-bottom:solid 1px #333;*/
 }
 
@@ -5040,4 +5040,27 @@ display:table;
 	.text-item i{
 	font-size:24px;
 	}
+	}
+
+/*	---------------------------------------
+	Other Custom Styles
+	---------------------------------------*/
+
+	#contact_logo {
+		width: 300px;
+	}
+
+	.under_msg {
+		color: #FAB702;
+		display: inline-block;
+		width: 50px;
+	}
+
+	#btwn_span {
+		display: inline-block;
+		width: 15px;
+	}
+
+	#send_message {
+		margin-top: -40px;
 	}
