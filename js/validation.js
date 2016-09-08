@@ -23,7 +23,7 @@
             }else{
                 $('#name').removeClass("error_input");
             }
-            if(email.length == 0 || email.indexOf('@') == '-1' || !email.test(re)){
+            if(email.length == 0 || email.indexOf('@') == '-1' || email.test(re)){
                 var error = true;
                 $('#email').addClass("error_input");
             }else{
