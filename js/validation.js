@@ -44,7 +44,7 @@
             // If there is no validation error, next to process the mail function
             if(error == false){
                // Disable submit button just after the form processed 1st time successfully.
-                //$('#send_message').attr({'disabled' : 'true', 'value' : 'Message Sent!' });
+                $('#send_message').attr({'disabled' : 'true', 'value' : 'Message Sent!' });
                 
 				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
                 // $.post("email.php", $("#contact_form").serialize(),function(result){
