@@ -2,7 +2,7 @@
         $('#send_message').click(function(e){
             
             //Stop form submission & check the validation
-            //e.preventDefault();
+            e.preventDefault();
             
             // Variable declaration
             var error = false;
@@ -46,6 +46,7 @@
                // Disable submit button just after the form processed 1st time successfully.
                 $('#send_message').attr({'disabled' : 'true', 'value' : 'Message Sent!' });
                 
+                $('#contact_form').submit();
 				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
                 // $.post("email.php", $("#contact_form").serialize(),function(result){
                 //     //Check the result set from email.php file.
