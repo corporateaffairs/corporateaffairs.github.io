@@ -18,7 +18,8 @@
 
             // email validation function with RegEx
             function validateEmail(email) {
-              var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+              var re = \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z.]{2,}\b;
+              console.log(re.test(email));
               return re.test(email);
             }
             
@@ -29,7 +30,7 @@
             }else{
                 $('#name').removeClass("error_input");
             }
-            if(email.length == 0 || email.indexOf('@') == '-1' || !validateEmail(email)){
+            if(email.length == 0 || email.indexOf('@') == '-1' || validateEmail(email)){
                 var error = true;
                 $('#email').addClass("error_input");
             }else{
