@@ -29,7 +29,7 @@
             }else{
                 $('#name').removeClass("error_input");
             }
-            if(email.length == 0 || email.indexOf('@') == '-1' || validateEmail(email)){
+            if(email.length == 0 || email.indexOf('@') == '-1' || !validateEmail(email)){
                 var error = true;
                 $('#email').addClass("error_input");
             }else{
