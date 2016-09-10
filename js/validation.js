@@ -14,6 +14,8 @@
 			$('#name,#email,#phone,#message').click(function(){
 				$(this).removeClass("error_input");
 			});
+
+            var re_em = /^(([^<>()[]\.,;:s@"]+(.[^<>()[]\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/igm;
             
          	// Form field validation
             if(name.length == 0){
@@ -22,7 +24,7 @@
             }else{
                 $('#name').removeClass("error_input");
             }
-            if(email.length == 0 || email.indexOf('@') == '-1'){
+            if(email.length == 0 || email.indexOf('@') == '-1' || !re_em.test(email)){
                 var error = true;
                 $('#email').addClass("error_input");
             }else{
