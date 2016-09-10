@@ -1496,6 +1496,10 @@ border:solid 1px #ddd;
 	display:block;
 	clear:both;
 	}
+
+	#bottom-spacer-single {
+		height: 40px;
+	}
 	
 	.spacer-double{
 	width:100%;
