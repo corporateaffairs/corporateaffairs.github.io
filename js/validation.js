@@ -15,11 +15,6 @@
 				$(this).removeClass("error_input");
 			});
 
-            var re_em = /^(([^<>()[]\.,;:s@"]+(.[^<>()[]\.,;:s@"]+)*)|(
-".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA
--Z-0-9]+.)+[a-zA-Z]{2,}))$/;
-            console.log(re_em.test(email));
-
          	// Form field validation
             if(name.length == 0){
                 var error = true;
@@ -27,7 +22,7 @@
             }else{
                 $('#name').removeClass("error_input");
             }
-            if(email.length == 0 || email.indexOf('@') == '-1' || !re_em.test(email)){
+            if(email.length == 0 || email.indexOf('@') == '-1'){
                 var error = true;
                 $('#email').addClass("error_input");
             }else{
