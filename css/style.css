@@ -44,6 +44,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700,900,400);
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Allura);
+/* my imported fonts */
+@import url(https://fonts.googleapis.com/css?family=Allura);
 
 /* ================================================== */
 /* body */
@@ -5083,4 +5085,12 @@ display:table;
 
 .first-home-space {
 	height: 21px;
+}
+
+div .de_tab_content div {
+	font-size: 20px;
+}
+
+div .col-md-12 div .de_tab .tab_steps ul .de_nav li span {
+	font-size: 30px;
 }
