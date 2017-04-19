@@ -5094,3 +5094,60 @@ div .de_tab_content div {
 div .col-md-12 div .de_tab .tab_steps ul .de_nav li span {
 	font-size: 30px;
 }
+
+.home-service-list li i {
+	color: orange;
+}
+.home-service-list li {
+	list-style-type: none;
+	padding: 4px 0;
+}
+.home-service-list {
+	padding-left: 0;
+}
+em#wedding-note {
+	display: inline-block;
+	padding: 10px 0;
+}
+#wedding-wrapper-2, #wedding-wrapper-3 {
+	display: none;
+}
+#wedding-wrapper-1, #wedding-wrapper-2, #wedding-wrapper-3 {
+	position: absolute;
+	width: 360px;
+	height: 257px;
+}
+#weddings-mini-nav {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+#weddings-mini-nav li {
+	cursor: pointer;
+	float: left;
+}
+#weddings-mini-nav li a {
+	display: block;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+}
+#weddings-mini-nav .active-sub {
+	background-color: #e9e9e9;
+}
+#wedding-img {
+	margin-top: 256.5px;
+}
+
+.landing-service {
+	/*background: #e9e9e9;*/
+	background: linear-gradient( to bottom, #e9e9e9, white);
+	margin: 0;
+	padding: 15px 0;
+	height: 292px;
+}
+
+ul#filters>li>a.selected {
+	cursor: default;
+}

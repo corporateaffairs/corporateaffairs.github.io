@@ -236,7 +236,7 @@ jQuery(document).ready(function () {
         jQuery(".item .picframe").on("mouseenter", function () {
             jQuery(this).parent().find(".overlay").width(jQuery(this).find("img").css("width"));
             jQuery(this).parent().find(".overlay").height(jQuery(this).find("img").css("height"));
-            jQuery(this).parent().find(".overlay").stop(true).fadeTo(300, .9);
+            jQuery(this).parent().find(".overlay").stop(true).fadeTo(300, .5);
             var picheight = jQuery(this).find("img").css("height");
             var newheight;
             newheight = (picheight.substring(0, picheight.length - 2) / 2) - 10;
