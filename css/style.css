@@ -5109,35 +5109,8 @@ em#wedding-note {
 	display: inline-block;
 	padding: 10px 0;
 }
-#wedding-wrapper-2, #wedding-wrapper-3 {
-	display: none;
-}
-#wedding-wrapper-1, #wedding-wrapper-2, #wedding-wrapper-3 {
-	position: absolute;
-	width: 360px;
-	height: 257px;
-}
-#weddings-mini-nav {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-}
-#weddings-mini-nav li {
-	cursor: pointer;
-	float: left;
-}
-#weddings-mini-nav li a {
-	display: block;
-	text-align: center;
-	padding: 8px;
-	text-decoration: none;
-}
-#weddings-mini-nav .active-sub {
-	background-color: #e9e9e9;
-}
 #wedding-img {
-	margin-top: 256.5px;
+	margin-top: 3px;
 }
 
 .landing-service {
@@ -5150,4 +5123,16 @@ em#wedding-note {
 
 ul#filters>li>a.selected {
 	cursor: default;
+}
+
+#contact-crumb {
+	width: 250px;
+	color: white;
+	position: absolute;
+	top: 135px;
+}
+#contact-crumb>span {
+	display: inline;
+	color: #d3d3d3;
+	letter-spacing: 0;
 }
