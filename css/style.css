@@ -5136,3 +5136,15 @@ ul#filters>li>a.selected {
 	color: #d3d3d3;
 	letter-spacing: 0;
 }
+
+@media (max-width:991px) {
+  #landing-service-row1 {
+    height: 415px;
+	}
+	#landing-service-row2 {
+    height: 370px;
+	}
+	#wedding-wrapper-1 {
+		height: 430px;
+	}
+}
